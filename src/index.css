@@ -272,6 +272,60 @@ b{
   }
 }
 
+@media (max-width: 768px) {
+  .AboutPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .AboutText {
+    width: 100%;
+  }
+
+  .AboutTextHeading {
+    font-size: 1.8rem;
+  }
+
+  .Avatar {
+    display: none; /* Hide the image in mobile view */
+  }
+
+  .Tilt {
+    display: none; /* Hide the tilt effect container in mobile view */
+  }
+}
+@media (max-width: 768px) {
+  .AboutPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .AboutText {
+    width: 90%; /* Increase width for better readability */
+    max-width: 600px; /* Limit width for proper structure */
+  }
+
+  .AboutTextHeading {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center; /* Center the heading */
+    margin-bottom: 15px;
+  }
+
+  .Avatar {
+    display: none; /* Hide the image in mobile view */
+  }
+
+  .Tilt {
+    display: none; /* Hide the tilt effect container in mobile view */
+  }
+}
 
 /* ABOUT */
 
@@ -327,6 +381,32 @@ b{
   .Avatar{
     width: 200px;
     margin-bottom: 75px;
+  }
+}
+
+@media (max-width: 768px) {
+  .AboutPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .AboutText {
+    width: 100%;
+  }
+
+  .AboutTextHeading {
+    font-size: 1.8rem;
+  }
+
+  .illustration {
+    display: none; /* Hide the image in mobile view */
+  }
+
+  .Tilt {
+    display: none; /* Hide the tilt effect container in mobile view */
   }
 }
 

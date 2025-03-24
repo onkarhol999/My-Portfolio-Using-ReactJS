@@ -18,9 +18,10 @@ const Contact = () => {
                 <a href="https://www.instagram.com/onkarhol_999/" target="_blank" rel="noopener noreferrer" className="contact-item instagram">
                     <FaInstagram /> Instagram
                 </a>
-                <a href="mailTo:onkarhol555@gmail.com" className="contact-item email">
-                    <FaEnvelope /> Email
+                <a href="mailto:onkarhol555@gmail.com" className="contact-item email">
+                    <FaEnvelope /> onkarhol555@gmail.com
                 </a>
+
             </div>
         </div>
     );
