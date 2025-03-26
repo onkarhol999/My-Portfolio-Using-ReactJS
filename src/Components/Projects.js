@@ -8,29 +8,37 @@ import Tic from '../images/Tic.png';
 import job from '../images/job.png';
 import shooping from '../images/Shooping.png';
 import freelance from '../images/Hospital.png';
+import ChatApp from '../images/ChatApp.png'
 
 const Project = () => {
   const projects = [
+    {
+      name: "Real Time chat Application",
+      photo: ChatApp,
+      desc: "A real-time chat application built with React.js, SockJS, and STOMP WebSockets, enabling seamless room-based messaging with secure authentication, message history retrieval, and live updates. Features include a responsive UI with dark mode, user presence detection, and optimized WebSocket handling to prevent duplicate messages.",
+      github: "https://github.com/onkarhol999/Chat-Application-.git",
+      website: "https://realtimechatapplication-orpin.vercel.app/"
+    },
     {
       name: "Learning Management System",
       photo: LMS,
       desc: "Developed a comprehensive Online Learning Management System using the MERN stack (MongoDB, Express, React, Node.js). The platform features secure user authentication, robust course management, and real-time progress tracking, providing a seamless and interactive learning experience.",
       github: "https://github.com/onkarhol999/LMS-Project2023",
-      website: "https://devanshsahni.github.io/tindog/"
+      website: "https://incomparable-meerkat-0f555a.netlify.app/"
     },
     {
       name: "FoodDonation System",
       photo: FoodDonation,
       desc: "A platform that connects food donors with NGOs and needy individuals, reducing food wastage and helping communities in need.",
       github: "https://github.com/onkarhol999/FoodBridge",
-      website: "https://yourwebsite.com/food-donation"
+      website: "https://earnest-lily-750c00.netlify.app/"
     },
     {
       name: "Online Teacher Recruitment Portal",
       photo: Teacher,
       desc: "A web-based portal for educational institutions to streamline the hiring process for teachers, allowing applications, screening, and interviews online.",
       github: "https://github.com/onkarhol999/DBATU_Recruitment_Portal",
-      website: "https://yourwebsite.com/teacher-recruitment"
+      website: "https://dulcet-mochi-7806fe.netlify.app/"
     },
     {
       name: "Tic-Tac-Toe Game",
