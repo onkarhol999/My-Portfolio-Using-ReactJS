@@ -45,7 +45,7 @@ const Project = () => {
       photo: Tic,
       desc: "A simple and interactive Tic-Tac-Toe game built using React.js, allowing two players to compete in a turn-based match.",
       github: "https://github.com/onkarhol999/Tic-Tac-Toe_Game",
-      website: "https://yourwebsite.com/tic-tac-toe"
+      website: "https://tic-tac-toe-game-git-main-onkarhol999s-projects.vercel.app/"
     },
     {
       name: "Job Portal Backend",
