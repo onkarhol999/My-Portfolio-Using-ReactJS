@@ -9,17 +9,24 @@ const About = () => {
     <>
       <div className='AboutPage'>
         <div className='AboutText'>
-          <h1 className='AboutTextHeading'>Get to <b>know</b> me!</h1>
+         <h1 className='AboutTextHeading'>Get to <b>know</b> me!</h1>
           <p>
-            Hi, my name is <b>Onkar Uttam Hol</b>, and I am from Satara, India.  
-            I'm a <b>Java Backend Developer</b> and a final-year college student pursuing <b>BTech in Computer Science & Engineering</b>.  
+            Hi, my name is <b>Onkar Uttam Hol</b>, and I am from Satara, Maharashtra, India.  
+            I'm currently working as an <b>SAP ABAP & UI5 Developer</b>.  
             <br/><br/>
-            I have done an internship as a <b>Software Developer</b> at AV Digital Solution, where I worked on industrial projects involving backend development.  
-            I love to build scalable and efficient backend systems with optimized logic. You can check out some of my work in the projects section.  
+
+            I specialize in building modern and user-friendly applications using <b>SAP Fiori (UI5)</b> along with strong backend development using <b>SAP ABAP</b>.  
+            I have hands-on experience in developing reports, enhancements, integrations, and creating responsive Fiori applications that improve business workflows.  
             <br/><br/>
-            I am <b>open</b> to new collaborations or opportunities where I can contribute and grow. Feel free to connect with me; links are in the footer.  
+
+            I enjoy working across the full stack by connecting frontend and backend using <b>OData Services</b>, delivering complete end-to-end SAP solutions.  
+            You can check out some of my work in the projects section.  
             <br/><br/>
-            Apart from coding, I love to explore new technologies and solve challenging problems.  
+
+            I am <b>open</b> to new opportunities and collaborations where I can contribute, learn, and grow as a developer. Feel free to connect with me; links are in the footer.  
+            <br/><br/>
+
+            Apart from SAP development, I love solving <b>DSA (Data Structures & Algorithms)</b> problems using <b>Java</b> and exploring new technologies.  
           </p>
         </div>
 
@@ -38,6 +45,13 @@ const About = () => {
       <h1 className='AchievementsHeading'>My Achievements</h1>
       <div className='achievements'>
         <div className='achievement-card'>
+          <h2>🎓 SAP ABAP & UI5 Training</h2>
+          <p>
+            Successfully trained as an <b>SAP ABAP & UI5 Developer</b> at <b>Utkarsh Foundation, Alibag, India</b>, 
+            gaining hands-on experience in building enterprise applications using SAP technologies.
+          </p>
+        </div>
+        <div className='achievement-card'>
           <h2>🥉 2nd Runner-up in National Level Hackathon</h2>
           <p>Secured 2nd runner-up position in a National Hackathon organized by Google Student Developer Club at Gardha Institute, Ratnagiri.</p>
         </div>
@@ -45,13 +59,11 @@ const About = () => {
           <h2>🏆 2-Star Coder on CodeChef</h2>
           <p>Achieved a 2-star rating on CodeChef, solving complex competitive programming challenges.</p>
         </div>
-        <div className='achievement-card'>
-          <h2>💯 1604 Highest Rating on LeetCode</h2>
-          <p>Ranked among the top coders on LeetCode with a highest rating of 1604.</p>
-        </div>
-        <div className='achievement-card'>
-          <h2>🧩 Solved 500+ Problems on LeetCode & GFG</h2>
-          <p>Practiced and solved over 500+ coding problems on LeetCode and GeeksForGeeks.</p>
+       <div className='achievement-card'>
+          <h2>💯 1600+ Rating on LeetCode</h2>
+          <p>
+            Achieved <b>Knight</b> level on LeetCode with a peak rating of <b>1604</b>, showcasing strong problem-solving skills in Data Structures and Algorithms.
+          </p>
         </div>
         <div className='achievement-card'>
           <h2>🌟 5-Star Java Coder on HackerRank</h2>
